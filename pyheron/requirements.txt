@@ -1,2 +1,2 @@
--f /Users/tnojima/workspace/pyheron_starter/3rdparty
+-f (abspath to this dir, automatically updated with make setup)
 pyheron
