@@ -1,7 +1,7 @@
 python_library(
   name='wc_bolts_spouts',
   sources=globs('word_count/bolts/*.py', 'word_count/spouts/*.py'),
-  dependencies=['3rdparty:pyheron']
+  dependencies=['pyheron:pyheron']
 )
 
 python_binary(

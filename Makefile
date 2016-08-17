@@ -6,6 +6,7 @@
 
 setup:
 	curl -L -O https://pantsbuild.github.io/setup/pants && chmod +x pants && touch pants.ini
+	sed -i '' -e '1 s@\-f .*@-f '"${PWD}"'/3rdparty@g' pyheron/requirements.txt
 
 clean:
-	rm pants pants.ini
+	rm -rf dist/ pants* .pants* .cache
