@@ -21,7 +21,7 @@ make setup
 ./pants binary :word_count
 ```
 
-If you change the target name in the BUILD file, you need to change `:word\_count`
+If you change the target name in the BUILD file, you need to change `:word_count`
 appropriately.
 
 * Deploy
