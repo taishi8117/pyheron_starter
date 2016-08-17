@@ -1,0 +1,9 @@
+dist/
+pants
+pants.ini
+.cache
+.pants*
+.DS_Store
+
+*.pyc
+
