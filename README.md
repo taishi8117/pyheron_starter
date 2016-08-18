@@ -3,7 +3,7 @@
 Learn to use Heron in Python!
 
 This is a template repository for developing a Python topology for [Heron](https://github.com/twitter/heron).
-Currently, a simple word count topology is included under `word_count` directory. For further information about how to write a topology in Python, you should refer to the documentation [here](http://twitter.github.io/heron/docs/developers/python/topologies/).
+Currently, a simple word count topology is included under `word_count` directory. For further information about how to write a topology in Python, you can refer to the documentation [here](http://twitter.github.io/heron/docs/developers/python/topologies/).
 
 <a name="getting-started"></a>
 
