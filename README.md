@@ -1,7 +1,8 @@
 # PyHeron Starter
 
-This is a template repository for developing a Python topology.
+This is a template repository for developing a Python topology for [Heron](https://github.com/twitter/heron).
 Currently, a word count topology is included under `word_count` directory.
+
 
 ## Compilation
 In order to compile the word count topology to the PEX file so 
