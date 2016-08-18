@@ -44,11 +44,13 @@ how to write a `BUILD` file for a python project.
   If you change the target name in the BUILD file, you need to modify the `build` rule in
   the `Makefile` appropriately.
 
-* Deploy
-The compiled PEX file will reside under `dist` directory, which can be
-submitted to Heron as shown below. For further reference, go to the PyHeron documentation.
+## Deployment
+The compiled PEX file will reside under `dist` directory by default, which can be
+submitted to Heron as shown below. 
 
   ```bash
   heron submit local `pwd`/dist/word_count.pex - WordCountTopology
   ```
+
+For further information about Python topology, refer to the [PyHeron documentation](http://twitter.github.io/heron/docs/developers/python/topologies/).
 
