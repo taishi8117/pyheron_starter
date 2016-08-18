@@ -29,7 +29,7 @@ it's deployable on Heron, you need to run the following commands.
   make setup
   ```
 
-This will automatically download and configure the pants.
+  This will automatically download and configure the pants.
 
 * Make sure `BUILD` file is correctly set up. 
 [This page](https://pantsbuild.github.io/python-readme.html) has a great instruction on 
@@ -41,8 +41,8 @@ how to write a `BUILD` file for a python project.
   make build
   ```
 
-If you change the target name in the BUILD file, you need to modify the `build` rule in
-the `Makefile` appropriately.
+  If you change the target name in the BUILD file, you need to modify the `build` rule in
+  the `Makefile` appropriately.
 
 * Deploy
 The compiled PEX file will reside under `dist` directory, which can be
