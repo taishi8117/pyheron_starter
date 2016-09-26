@@ -56,3 +56,7 @@ submitted to Heron as shown below.
 
 For further information about Python topology, refer to the [PyHeron documentation](http://twitter.github.io/heron/docs/developers/python/topologies/).
 
+### Troubleshooting
+
+## Build Error on Mac OS X
+Make sure you have installed Xcode Command Line Tools by `xcode-select --install`, before the build.
