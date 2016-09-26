@@ -59,4 +59,4 @@ For further information about Python topology, refer to the [PyHeron documentati
 # Troubleshooting
 
 ## Build Error on Mac OS X
-Make sure you have installed Xcode Command Line Tools by `xcode-select --install`, before the build.
+Make sure you have installed the Xcode Command Line Tools by `xcode-select --install`, before the build.
